@@ -12,9 +12,10 @@
     font-size: 1.3em;
     top: -500px;
     overflow: hidden;
+    color: var(--visited-link);
 }
 
-.hidden:focus {
+.hidden:focus, .hidden:hover {
     top: 0px;
     overflow: initial;
     color: var(--visited-link);
@@ -97,8 +98,10 @@ table {
     width: 100%;
 }
 
-td {
+td, th {
     padding: 10px;
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
 }
 
 ul {
@@ -111,6 +114,10 @@ ul li {
 
 li ul li {
     list-style-type: circle;
+}
+
+#skills li {
+    list-style-type: square;
 }
 
 .foot {
