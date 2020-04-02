@@ -56,7 +56,7 @@ legend h3 {
     font-size: 20px;
 }
 
-#box p, div li, div table {
+.box p, div li, div table {
     font-size: 14px;
 }
 
@@ -88,7 +88,7 @@ a:focus {
     border: 5px;
 }
 
-#box {
+.box {
     border-bottom: 1pt solid black;
     height: 100%;
 }
@@ -184,7 +184,7 @@ a:focus {
         flex-direction: row;
     }
 
-    #box p, div li, div table {
+    .box p, div li, div table {
         font-size: 15px;
     }
 
@@ -195,7 +195,7 @@ a:focus {
 
 @media only screen and (min-width: 768px) {
 
-    #box p, div li, div table {
+    .box p, div li, div table {
         font-size: 16px;
     }
 
@@ -206,7 +206,7 @@ a:focus {
 
 @media only screen and (min-width: 992px) {
 
-    #box p, div li, div table {
+    .box p, div li, div table {
         font-size: 17px;
     }
 
