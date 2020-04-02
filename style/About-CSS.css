@@ -1,0 +1,49 @@
+:root {
+  --carousel-button-color: red;
+  --outline-border-color: black;
+  --caption-color: blue;
+}
+
+.carousel img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.carousel-caption h3 {
+    color: var(--caption-color);
+    mix-blend-mode: difference;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: var(--outline-border-color);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid var(--outline-border-color);
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: var(--carousel-button-color);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: var(--carousel-button-color);
+}
+
+ol li{
+  list-style-type: upper-roman;
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+}

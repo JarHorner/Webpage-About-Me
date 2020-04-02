@@ -1,0 +1,12 @@
+:root {
+    --link-hover-color: #767474;
+    --download-link: #E4F33F;
+}
+
+.download:link {
+    color: var(--download-link);
+}
+
+.download:hover {
+    background-color: var(--link-hover-color);
+}
